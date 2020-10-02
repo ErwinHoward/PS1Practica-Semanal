@@ -34,6 +34,28 @@ header{
     font-size: 20px;
 }
 
+.img{
+    max-width: 250px;
+    margin-top: 5em;
+    padding-right: 20em;
+}
+
+b{
+    max-width: 250px;
+    float: right;
+    margin-top: -7em;
+    padding-right: 500px;
+    color: darkblue;
+
+}
+
+h2{
+    float: right;
+    margin-top: -7em;
+    padding-right: 20em; 
+    color: darkblue;
+}
+
 footer{
     background-color: darkblue;
     left: 0;
@@ -46,60 +68,4 @@ footer{
     font-size: 12px;
     font-weight: lighter;
     color: white;
-}
-
-
-.aleft
-{
-    float: left;
-    width: 20%;
-    height: 300px;
-}
-
-.aright
-{
-
-    float: right;
-    width: 60%;
-    height: 500px;
-}
-
-.mensaje
-{
-    color: darkblue;
-    font-size: 15px;
-    font-weight: normal;
-    padding-left: 10%;
-}
-
-.menu-mensaje
-{
-    padding-top: 20%;
-    padding-left: 3em;
-    padding-top: 3em;
-}
-
-.input
-{
-    background-position: left;
-    width: 150px;
-    height: 20px;
-    border: 1px solid;
-    border-radius: 5px;
-    margin-bottom: 8px;
-    padding-left: 83px;
-}
-
-.boton
-{
-    padding-left: 40%;
-}
-
-.informacion
-{
-    color: darkblue;
-    font-size: 13px;
-    font-weight: normal;
-    padding-left: 20%;
-    padding-top: 25%;
 }

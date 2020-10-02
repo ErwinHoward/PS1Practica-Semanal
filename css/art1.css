@@ -11,7 +11,7 @@ body{
 
 .text-logo{
     float: left;
-    color: darkgreen;
+    color: white;
 }
 
 header{
@@ -41,15 +41,31 @@ header{
 }
 
 b{
+    max-width: 250px;
     float: right;
     margin-top: -7em;
-    padding-right: 20em; 
-    color: darkred;
+    padding-right: 500px;
+    color: darkblue;
+
 }
 
 h2{
     float: right;
-    margin-top: -10em;
+    margin-top: -7em;
     padding-right: 20em; 
-    color: darkred;
+    color: darkblue;
+}
+
+footer{
+    background-color: darkblue;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
 }
